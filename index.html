@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>El Mundo de la Fiesta</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+     margin:0;
+    font-family:'Poppins', sans-serif;
+    background: url("Fondo Blanco.png") no-repeat center center fixed;
+    background-size: cover;
+    color:#333;
+}
+
+/* HEADER */
+
+header{
+    background:linear-gradient;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    padding:100px 10px;
+}
+
+.logo{
+    width:100%;
+    max-width:660px;
+    height:auto;
+    margin-bottom:10px;
+}
+header h1{
+    font-size:40px;
+    margin:10px 0 0 0;
+}
+
+header p{
+    font-size:18px;
+}
+
+/* BOTONES */
+
+.btn{
+    display:inline-block;
+    background:#ffcc00;
+    color:#000;
+    padding:12px 25px;
+    border-radius:30px;
+    font-weight:bold;
+    text-decoration:none;
+    margin-top:15px;
+}
+
+/* SECCIONES */
+
+section{
+    padding:0px 20px;
+    text-align:center;
+}
+
+h2{
+    color:#170f11;
+    margin-bottom:20px;
+}
+
+/* CARDS */
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    width:300px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    padding:20px;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* GALERIA */
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.galeria img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* FOOTER */
+
+footer{
+      background:linear-gradient(90deg);
+    color:rgb(20, 19, 19);
+    padding:30px;
+    text-align:center;
+}
+
+/* BOTON WHATSAPP */
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:lighter;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <!-- LOGO -->
+    <img src="logo-inferior.png" alt="Logo" class="logo" > <br>
+
+    <a href="tel:8138589679" class="btn">📲 8138589679</a>
+
+</header>
+
+<section>
+
+<h2>¿Por qué rentar con nosotros?</h2>
+
+<p>Ofrecemos inflables seguros, limpios y en excelente estado para que tu evento sea inolvidable.</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>🎈 Diversión Garantizada</h3>
+<p>Inflables grandes y coloridos ideales para niños y reuniones familiares.</p>
+</div>
+
+<div class="card">
+<h3>⏰ Puntualidad</h3>
+<p>Instalamos a tiempo y nos adaptamos a tu horario.</p>
+</div>
+
+<div class="card">
+<h3>✨ Calidad</h3>
+<p>Equipo limpio y seguro para todos los invitados.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Paquetes Destacados</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="Flyer Paquete Brinco.png" alt="Paquete Brinco">
+<h3>Paquete Brinco</h3>
+<p>Incluye trampolín, mesas, sillas, toldo y palomera.</p>
+</div>
+
+<div class="card">
+<img src="Flyer Paquete Premier.png" alt="Paquete Premier">
+<h3>Paquete Premier</h3>
+<p>Inflable grande + mobiliario completo para 30 personas.</p>
+</div>
+
+<div class="card">
+<img src="Flyer Paquete Equipado.png" alt="Paquete Equipado">
+<h3>Paquete Equipado</h3>
+<p>Ideal para eventos grandes con 40 asistentes.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Paquetes Extras</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="El Mundo de la Fiesta Sin Precio.png" alt="Combos">
+<h3>Paquetes</h3>
+<p>Incluye una variedad de artículos para ese evento deseado.</p>
+</div>
+
+<div class="card">
+<img src="Flyer Paquete Infantil.png" alt="Paquete Infantil">
+<h3>Paquete Infantil</h3>
+<p>Incluye Inflable + Trampolín, 2 Mesas Grandes + 20 Asientos.</p>
+</div>
+
+<div class="card">
+<img src="El Mundo de la Fiesta Sin Precios.png" alt="Más Paquetes">
+<h3>Paquetes</h3>
+<p>Ideal para eventos grandes.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Nuestro Stock Real</h2>
+
+<div class="galeria">
+
+<img src="images/stock1.jpeg">
+<img src="images/stock2.jpeg">
+<img src="images/stock3.jpeg">
+<img src="images/stock4.jpeg">
+<img src="images/stock5.jpeg">
+<img src="images/stock6.jpeg">
+<img src="images/stock7.jpeg">
+<img src="images/stock8.jpeg">
+<img src="images/stock9.png">
+<img src="images/stock10.jpeg">
+<img src="images/stock11.jpeg">
+<img src="images/stock12.jpeg">
+<img src="images/stock13.jpeg">
+<img src="images/stock14.jpeg">
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Agenda tu fecha hoy mismo</h2>
+
+<p>Pregunta por disponibilidad y precios sin compromiso.</p>
+
+<a href="tel:8122040222" class="btn">📲 8122040222</a>
+
+</section>
+
+<footer>
+
+<p> © 2026 El Mundo de la Fiesta | Todos los derechos reservados</p>
+
+</footer>
+
+<a href="https://wa.me/528138589679" class="whatsapp">
+WhatsApp
+</a>
+
+</body>
+</html>
